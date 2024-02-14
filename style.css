@@ -1,0 +1,27 @@
+
+/* Lakeland Reeds Bed and Breakfast style sheet
+Filename: style.css
+
+Author: Nevaeh Carr
+Date: 2/14/24
+HTML5 and CSS3 Illustrated Unit, Lessons
+*/
+
+p {
+    text-align: center;
+    background-color: ivory;
+}
+body {
+    background-color: ivory;
+    text-align: left;
+}
+#contact {
+    text-algin: right;
+}
+.accent {
+    color: darkcyan;
+}
+h1, #contact {
+    background-color: wheat;
+    color: dimgray;
+}
