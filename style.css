@@ -6,22 +6,165 @@ Author: Nevaeh Carr
 Date: 2/14/24
 HTML5 and CSS3 Illustrated Unit, Lessons
 */
-
+html {
+    max-width: 640px;
+}
 p {
     text-align: center;
     background-color: ivory;
 }
 body {
     background-color: ivory;
-    text-align: left;
-}
-#contact {
-    text-algin: right;
+    text-align: center;
 }
 .accent {
-    color: darkcyan;
+    color: solid black;
 }
-h1, #contact {
-    background-color: wheat;
-    color: dimgray;
+#contact {
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    max-width: 640px
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+/* Description */
+
+.accent {
+    text-align: left;
+}
+
+/* reset styles */
+article, body, div, footer, header, h1, h2, p {
+    border:0;
+}
+
+/* body and page container */
+.container {
+    max-width: 640px;
+    background-color: green;
+}
+
+/* sidebar */
+aside p {
+    background-color: goldenrod;
+}
+aside p {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+aside p {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 0.4em 0;
+    margin 0 0.6em
+}
+
+/* body and page container */
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+/* main content */
+article {
+    width: 20%;
+    float: left;
+}
+article p {
+    padding: 0 1em 1em;
+}
+
+/* sidebar */
+aside {
+    width: 10%
+    padding: 1em 0;
+    background-color: goldenrod;
+}
+aside {
+    float: right;
+}
+
+/* footer section */
+footer {
+    padding: 0.6em;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    clear: left;
+}
+
+/* article p 1's */
+article1 {
+    width: 77%;
+    float: right;
+    float: top;
+}
+article1 p1{
+    padding: 0 1em 1em;
+}
+article1 {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: rgb(183, 183, 152);
+    text-align: left;
+    clear: right;
+}
+
+/* sidebar1 1 */
+aside1 {
+    width: 77%
+    padding: 1em 0;
+    background-color: rgb(183, 183, 152);
+}
+aside1 {
+    float: left;
+}
+
+/* headings */
+header {
+    width: 100%;
+    max-width: 640px;
+    position: fixed;
+    background-color: darkgreen;
+}
+
+/* body and page container */
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: green;
+    position: relative;
+    top: 6.2em;
+}
+
+/* article h2 2's */
+article2 {
+    width: 77%;
+    float: right;
+    float: top;
+}
+article2 h2{
+    padding: 0 1em 1em;
+}
+article2 {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: rgb(183, 183, 152);
+    text-align: left;
+    clear: right;
+}
+
+/* sidebar1 1 */
+aside2 {
+    width: 77%
+    padding: 1em 0;
+    background-color: rgb(183, 183, 152);
+}
+aside2 {
+    float: left;
 }
